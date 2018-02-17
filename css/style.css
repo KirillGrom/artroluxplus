@@ -93,7 +93,9 @@ ul {
 
 }
 
-
+.logo {
+    width: 80px;
+}
 .logo__slogan {
     width: 74px;
     margin-top: 15px;
@@ -364,6 +366,7 @@ ul {
 .form__top {
     font-size: 45px;
     color: #db244e;
+    text-align: center;
 }
 
 .countdown-container {
@@ -432,6 +435,9 @@ ul {
     display: flex;
     -webkit-box-align: start;
     -ms-flex-align: start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     align-items: flex-start;
 }
 
