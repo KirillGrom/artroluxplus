@@ -684,7 +684,7 @@ ul {
     background-image: url(../img/expert.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left -90px top;
+    background-position: calc(100% - 50% - -7px)  top;
 }
 
 .sec-three__title {
@@ -1553,7 +1553,7 @@ ul {
         background-image: url(../img/header__bg768.png), url(../img/seashell768.png), url(../img/header__bg.svg), linear-gradient(to bottom, #561322, #991e3a 60%, rgba(255, 255, 255, 0) 60%);
         margin-top: -161px;
         padding-top: 230px;
-        background-position: left top 530px, right top 646px, left top, right;
+        background-position: left top 530px, right top 646px, left top, top 1px right;
         background-size: auto, auto, 646px, auto;
     }
 
@@ -1713,7 +1713,7 @@ ul {
         width: 45%;
     }
     .footer{
-        background-position: left -73px top 442px, right top 477px, left top, right;
+        background-position: left -73px top 442px, right top 477px, left top, top 1px right;
     }
 }
 
